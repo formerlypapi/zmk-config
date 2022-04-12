@@ -28,12 +28,12 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  4  |  5  |  6  |  \  |  `   |
-// | SHFT | del |     |     |     |     |   |     |  1  |  2  |  3  |     |      |
-//                    | GUI |     |     |   | SPC |  0  |  .  |
+// | CTRL |     |     |     |     |     |   | TAB |  4  |  5  |  6  |  \  |  `   |
+// | SHFT | F11 | DEL |     |     |     |   |     |  1  |  2  |  3  |     |      |
+//                    |     |     |     |   | SPC |  0  |  .  |
                         bindings = <
    &kp TAB &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp N6 &kp N7 &kp N8 &kp N9  &kp N0 &kp BSPC
-   &kp LCTRL &trans &trans &trans  &trans &trans   &kp tab &kp N4 &kp N5 &kp N6 &kp BSLH &kp GRAVE
+   &kp LCTRL &trans &trans &trans &trans &trans   &kp tab &kp N4 &kp N5 &kp N6 &kp BSLH &kp GRAVE
    &kp LSHFT &kp F11 &kp DEL &trans &trans &trans   &trans &kp N1 &kp N2 &kp N3 &trans &trans
                              &trans &trans &trans   &kp SPACE &kp N0 &kp DOT
                         >;
